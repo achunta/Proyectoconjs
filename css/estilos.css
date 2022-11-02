@@ -1,0 +1,403 @@
+
+*
+{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    
+.headerFlex{
+    background-color: rgb(86, 95, 105);
+    display: flex; 
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eff1f5;
+    font-size: 1rem;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+     width: 50%;
+     padding-left: 2rem;
+     font-size: 1rem;
+
+}
+.imagenlogo{
+ width: 20%;
+}
+
+.navegador{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+/*
+.comprartickets{
+    text-decoration-color: rgb(9, 129, 9);
+}
+*/
+
+.imagenmain{
+    width:100%
+}
+
+.principal{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url("../Assets/imagenes/ba1.jpg");
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.contenidoprincipal{
+    width: 60%;
+    text-align: right;
+    padding-right: 2.5rem;
+    color: white;
+    text-decoration-color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+ .botones{
+    position: relative;
+    top: 42%;
+    right: 3%;
+    text-align: right;
+ }
+
+.botoncontacto{
+    border: 1px solid #eff1f5;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+    /*display: flex;*/
+}
+.botontickets{
+    border: 1px solid #eff1f5;
+    padding: 10px;
+    background-color:rgb(42, 173, 42);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+   /* display: block;*/
+}
+
+
+.tarjetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.padretarjetas {
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.tarjetaflex {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.tarjeta {
+    background-color: whitesmoke;
+    width: 30%;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 10px;
+}
+.tarjetaimagen{
+    width: 100%;
+    border-radius:10px;
+}
+
+.contenidotarjeta{
+    padding: 1rem;
+}
+.tarjetaparrafo{
+    width: 80%;
+}
+
+#react{
+    background-color: #1da1b7;
+    color: white;
+
+}
+
+#java{
+    background-color: #febe00;
+    color: black;
+}
+.sectiondividida{
+    display: flex;
+    height: 50vh;
+
+}
+
+.etiquetas2{
+    border-radius: 5px;
+    padding: 0.9%;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 0 0 4%;
+   
+}
+
+.etiquetaN{
+    background-color: grey;
+    border-radius: 5px;
+    padding: 0.9%;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 0 0 4%;
+}
+
+.etiquetaS{
+    background-color: rgb(202, 67, 67);
+    border-radius: 5px;
+    padding: 0.9%;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 0 0 4%;
+    
+}
+.imgizq{
+    height: 100%;
+    width: 50%;
+    background-image: url("../Assets/imagenes/honolulu.jpg");
+    background-size: cover;
+    flex-direction: column;
+}
+
+.contenidoder{
+    height: 100%;
+    width:50%;
+    padding: 2rem;
+    background-color: rgb(70, 77, 85) ;
+    color: rgb(248, 241, 241);
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.conocemas{
+    border: 1px solid #eff1f5;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+.Enviar{
+    border: 1px solid #2da546;
+    border-radius: 5px;
+    background-color: #2da546;
+    padding: 0.6%;
+    color: white;
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+.transparencia{
+    opacity: 0.5;
+}
+
+.colorfooter{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(29,57,71,1) 8%, rgba(29,57,71,1) 100%);
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.compratickets{
+    width: 100%;
+display: flex; 
+justify-content: center;
+align-items: center;
+
+}
+
+.tarjetastickets{
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-right: 20%;
+    padding-left: 20%;
+    justify-content: space-between;
+    margin-top: 5%;
+
+}
+.negrita{
+    font-weight: bold;
+}
+
+.tarjetaestud{
+    border: 1px solid rgb(4, 34, 100);
+    width: 30%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding-top: 2%;
+
+}
+
+.tarjetatrainee{
+    border: 1px solid rgb(104, 140, 219);
+    width: 30%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding-top: 2%;
+
+}
+
+.tarjetajunior{
+    border: 1px solid rgb(235, 236, 137);
+    width: 30%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding-top: 2%;
+
+}
+
+.venta{
+   text-align: center;
+   margin-top: 2%;
+
+}
+
+.container{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+ 
+.botones2{
+    display: inline-block;
+    width: 100%;
+}
+
+.borrar{
+    border: 1px solid #eff1f5;
+    padding: 10px;
+    background-color:rgb(42, 173, 42);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.Enviar2{
+    border: 1px solid #eff1f5;
+    padding: 10px;
+    background-color:rgb(42, 173, 42);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    
+.headerFlex{
+    flex-direction: column;
+    text-align: center;
+    position: static;
+    width: 100%;
+}
+    
+.logo{
+    width: 100%;
+    text-align: center;
+    display: block;
+
+    /*
+    justify-content: space-between;
+    padding-left: initial;*/
+}
+.navegador{
+    width: 100%;
+    flex-direction: column; 
+    display: block;
+    text-align: center;
+}
+.links{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+   /* padding:initial;*/
+}
+
+.principal{
+    height: auto;
+    padding: 10% 0;
+    justify-content: center;
+
+  
+}
+.botones{ 
+    /*position: static;*/
+    top: 0%;right: 2%;
+   /* text-align: center;*/
+    justify-content: center;
+   
+}
+
+.tarjetaflex{
+    flex-direction: column ;
+}
+.tarjeta{
+    width:100%;
+    margin-bottom: 1rem;
+}
+.sectiondividida{
+   width: 100%;
+   display: flex;
+ 
+    
+}
+.imgizq{
+    width: 50%;
+    flex-direction: column;
+}
+.contenidoder{
+   width: 50%;
+   flex-direction: column;
+  
+}
+
+.footer{
+    height: auto;
+}
+
+}
